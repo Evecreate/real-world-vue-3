@@ -1,4 +1,7 @@
 {
+  "message": {
+    "text": "This is just some text"
+  },
   "events": [
     {
       "id": 123,
