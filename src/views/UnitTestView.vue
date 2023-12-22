@@ -1,4 +1,5 @@
 <script setup>
+import LoginForm from '@/components/LoginForm.vue';
 import RandomNumber from '@/components/RandomNumber.vue';
 </script>
 
@@ -9,4 +10,5 @@ import RandomNumber from '@/components/RandomNumber.vue';
   </p>
 
   <RandomNumber :min="0" :max="500" />
+  <LoginForm />
 </template>
