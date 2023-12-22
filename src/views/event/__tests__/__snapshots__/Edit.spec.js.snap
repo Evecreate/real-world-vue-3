@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Edit > Logged in show button 1`] = `
+"<p data-v-9dfe3d8a="">Edit the event here</p>
+<div data-v-9dfe3d8a="" class="app-header"><button data-v-9dfe3d8a="">Edit</button></div>"
+`;
+
+exports[`Edit > Logged out do not show button 1`] = `
+"<p data-v-9dfe3d8a="">Edit the event here</p>
+<div data-v-9dfe3d8a="" class="app-header"><button data-v-9dfe3d8a="" style="display: none;">Edit</button></div>"
+`;

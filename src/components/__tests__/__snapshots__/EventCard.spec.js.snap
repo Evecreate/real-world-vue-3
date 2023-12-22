@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`EventCard > renders properly 1`] = `
+"<routerlink data-v-f2df5c1a="" to="[object Object]" class="event-link">
+  <div data-v-f2df5c1a="" class="event-card">
+    <h2 data-v-f2df5c1a="">Cat Adoption Day</h2><span data-v-f2df5c1a="">@12:00 on January 28, 2022</span>
+  </div>
+</routerlink>"
+`;
