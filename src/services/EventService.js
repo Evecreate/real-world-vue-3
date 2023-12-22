@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const apiClient = axios.create({
   baseURL:
-    'https://my-json-server.typicode.com/Evecreate/vue-mastery--real-world-vue',
+    'https://my-json-server.typicode.com/Evecreate/real-world-vue-3',
   withCredentials: false,
   headers: {
     Accept: 'application/json',
@@ -16,6 +16,9 @@ export default {
   },
   getEvent(id) {
     return apiClient.get('/events/' + id);
+  },
+  getMessage() {
+    return apiClient.get('/message');
   },
 };
  
